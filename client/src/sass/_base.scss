@@ -30,3 +30,11 @@ footer{
     margin: auto;
     padding: 40px;
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 800px;
+        margin: auto;
+        padding: 40px 4px;
+    }
+}
