@@ -1,15 +1,16 @@
 .footer{
-    height: 10vh;
+    min-height: 10vh;
     position: static;
-    width: 100%;
+    max-width: 1200px;
+    margin: auto;
     bottom: 0;
     left: 0;
     background-color: black;
     color: white;
     display: flex;
-    align-items: center;
-    padding: 10px;
-    justify-content: space-around;    
+    align-items: flex-start;
+    padding: 10px 0px;
+    justify-content: space-between;    
 
     ul{
         list-style: none;
@@ -25,6 +26,26 @@
             text-decoration: none;
             color: white;
             margin-left: 10px;
+            transition: ease-in-out 0.4s;
+        }
+        a:hover{
+            color: rgb(70, 70, 70);
         }
     }
 }
+
+@media screen and (max-width: 460px) {
+    .footer{
+        flex-direction: column;
+    }
+    ul{
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .footer{
+        justify-content: space-around;
+    }
+}
+

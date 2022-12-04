@@ -1,4 +1,3 @@
-import React from 'react'
 import {FaPhoneAlt, FaAddressBook} from 'react-icons/fa'; 
 
 export const Footer = () => {
@@ -22,6 +21,7 @@ export const Footer = () => {
             <li>KattspinnarGatan 10</li>
             <li>595 55 Purr</li>
         </ul>
+        
     </footer>
   )
 }

@@ -26,8 +26,8 @@ export const CatSection = () => {
   }, [])
 
   return (
-    <div className='container'>
-
+    <div>
+      
       <button onClick={fetchData}>CLICK</button>
 
       <div className="info">      
