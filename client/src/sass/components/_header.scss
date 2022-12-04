@@ -53,11 +53,12 @@ header{
         .logo{
             display: none;
         }
-
+    
         nav{
             ul{
                 justify-content: center;
                 margin-right: 0;
+                justify-content: space-around;
             }
         }
     }
