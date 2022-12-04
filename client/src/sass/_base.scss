@@ -1,0 +1,32 @@
+@import "../sass/components/header";
+@import "../sass/components/catsection";
+@import "../sass/components/footer";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgb(42, 42, 42), black);
+    background-color: rgb(42, 42, 42);
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    min-height: 84vh;
+}
+
+footer{
+    min-height: 10vh;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+}
